@@ -22,6 +22,9 @@ public class InputTrapUsingDo{
         }
         while(n < 10 || n > 50);
         
+        // valid input has been received so we can now get on with it
+        JOptionPane.showMessageDialog(null, "success, you have entered wisely.");
+        
 
         System.out.println("end of program");
     }
